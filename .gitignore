@@ -1,0 +1,7 @@
+*.sch-bak
+*.kicad_pcb-bak
+*.tmp
+*.net
+*.json
+*.gbr
+*.drl
