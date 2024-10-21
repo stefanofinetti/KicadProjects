@@ -1,0 +1,7386 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6e8dad7a-d037-46a4-bedb-f020a35a904d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SimPanel:EC11EBB24C03"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "EC11EBB24C03"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SimPanel:EC11EBB24C03"
+				(at 8.89 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/EC11EBB24C03.pdf"
+				(at 8.89 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Alps 15 Pulse Incremental Mechanical Rotary Encoder with a 3.5 (Inner Shaft) mm, 6 (Outer Shaft) mm"
+				(at 8.89 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "33"
+				(at 8.89 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ALPS Electric"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "EC11EBB24C03"
+				(at 8.89 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "688-EC11EBB24C03"
+				(at 8.89 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/EC11EBB24C03?qs=m0BA540hBPc5hAJ6UyzIrA%3D%3D"
+				(at 8.89 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 8.89 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 8.89 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Part Number" ""
+				(at 8.89 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Price/Stock" ""
+				(at 8.89 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MobiFlight_Shop" "https://shop.mobiflight.com/product/dual-rotary-encoder"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Dual rotary encoder with both encoders on a concentric shaft"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "EC11EBB24C03*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EC11EBB24C03_0_0"
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "EC11EBB24C03_1_0"
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "EC11EBB24C03_1_1"
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy 7.62 7.62) (xy 7.62 -7.62) (xy -7.62 -7.62) (xy -7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "SimPanel:TL3240F260R"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -7.62 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TL3240F260R"
+				(at -7.62 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TL3240F260R:SW_TL3240F260R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TL3240F260R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TL3240F260R_0_0"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.604) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -1.27 -6.604)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.556) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.2794 -1.6764) (xy -0.8636 -3.0734)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy -1.27 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 1.27 -6.604)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.778) (xy 0.381 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy 0.0635 -2.54) (xy 0.4445 -1.524) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.0955) (xy 1.3335 -2.6035) (xy 1.7145 -1.524) (xy 0.762 -2.0955)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 21.59 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18f1af77-71b2-4b4f-83cc-462172656b5d")
+	)
+	(junction
+		(at 157.48 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a6d8a23-be05-41ad-aa7d-d3742ea70a25")
+	)
+	(junction
+		(at 134.62 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d5e3630-270e-4f10-898d-29e559eb90e0")
+	)
+	(junction
+		(at 226.06 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2db7e13a-5489-40e5-8222-8a6bb26f1202")
+	)
+	(junction
+		(at 226.06 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ee7ea13-8287-4ed6-b26d-b1103804cfbd")
+	)
+	(junction
+		(at 157.48 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bf00e85-4f5f-48b9-9e03-9357599e43b5")
+	)
+	(junction
+		(at 271.78 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fc35e9f-d231-468e-80f3-0ea9769be6c0")
+	)
+	(junction
+		(at 226.06 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46ff506b-d2bf-4713-a8ea-be1389fba847")
+	)
+	(junction
+		(at 21.59 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50245e5c-1125-44f6-8464-a3b8bdd2e01a")
+	)
+	(junction
+		(at 62.23 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df6ba10-2dad-41d8-bdf5-892327b92837")
+	)
+	(junction
+		(at 204.47 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e2b36fd-44c8-4d92-b6da-7ae9fb302321")
+	)
+	(junction
+		(at 157.48 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e57c6b-57db-41e0-893f-4aa83c335f34")
+	)
+	(junction
+		(at 87.63 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d41b33d7-1088-487e-af68-7e3837175329")
+	)
+	(junction
+		(at 87.63 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd36f39c-2274-4e04-b1b8-e964f85a0d58")
+	)
+	(junction
+		(at 269.24 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec749a5a-dae3-49a4-a6a1-1c502b55bc64")
+	)
+	(junction
+		(at 40.64 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed8f8aa4-3924-4812-ac86-ef0f6a13155c")
+	)
+	(junction
+		(at 87.63 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f26d37f2-1fb9-45c1-b7d0-6c2bb42c8a44")
+	)
+	(junction
+		(at 21.59 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff47e744-d99a-479c-90e3-544781c5e7be")
+	)
+	(no_connect
+		(at 57.15 74.93)
+		(uuid "11e30be4-b900-47ab-8ed9-bcfffc52d954")
+	)
+	(no_connect
+		(at 261.62 105.41)
+		(uuid "22afd9ee-aab0-4733-a041-bf43561a052b")
+	)
+	(no_connect
+		(at 57.15 130.81)
+		(uuid "24aaaa39-cdb5-4002-a062-3e3f8641daaa")
+	)
+	(no_connect
+		(at 113.03 100.33)
+		(uuid "27c63724-62f7-44ce-afab-7dd6c408bdcf")
+	)
+	(no_connect
+		(at 86.36 35.56)
+		(uuid "306692a4-6cce-424f-a30d-a82b2850d3f9")
+	)
+	(no_connect
+		(at 267.97 39.37)
+		(uuid "320798eb-3f34-464a-923a-156f0de37f97")
+	)
+	(no_connect
+		(at 113.03 73.66)
+		(uuid "385aa6d3-0aed-408b-b876-52a049ce1672")
+	)
+	(no_connect
+		(at 113.03 128.27)
+		(uuid "4c4c2eb1-8312-49a5-b191-43a55e9a6321")
+	)
+	(no_connect
+		(at 261.62 100.33)
+		(uuid "55fc0611-92ab-4173-bffe-325dcf08b00e")
+	)
+	(no_connect
+		(at 193.04 100.33)
+		(uuid "5caf6f16-8f9b-46e6-b0ee-544dc52c4222")
+	)
+	(no_connect
+		(at 57.15 125.73)
+		(uuid "6d7d045c-9f85-4520-a9f3-2a5ddac902e3")
+	)
+	(no_connect
+		(at 57.15 105.41)
+		(uuid "71a82ed3-9e91-4674-ac11-caac7d66cf4a")
+	)
+	(no_connect
+		(at 267.97 41.91)
+		(uuid "7339821d-a7ef-44d7-9de8-e669ba6de656")
+	)
+	(no_connect
+		(at 193.04 105.41)
+		(uuid "7647922a-9059-4e01-b0ab-46459d34215f")
+	)
+	(no_connect
+		(at 57.15 100.33)
+		(uuid "8e067fc7-bcb2-4f10-baf9-02d9b6644155")
+	)
+	(no_connect
+		(at 267.97 34.29)
+		(uuid "95185ff8-a217-41fa-973f-5ad401c38b88")
+	)
+	(no_connect
+		(at 113.03 107.95)
+		(uuid "95d18638-ccaa-4a9e-a10c-c05f2bcac5d7")
+	)
+	(no_connect
+		(at 261.62 78.74)
+		(uuid "969067c7-c290-42d0-86d7-962072c19d53")
+	)
+	(no_connect
+		(at 193.04 78.74)
+		(uuid "9b2326e4-05d2-424c-a7d8-be6b9753184d")
+	)
+	(no_connect
+		(at 261.62 73.66)
+		(uuid "9ea398f9-7a36-4aba-8d79-07ca5ee7c5bf")
+	)
+	(no_connect
+		(at 193.04 128.27)
+		(uuid "ad9429e3-247a-4fc8-a77e-7bfde6a29a14")
+	)
+	(no_connect
+		(at 113.03 81.28)
+		(uuid "b27d4901-360d-45c5-9db6-0879fb3e25fa")
+	)
+	(no_connect
+		(at 193.04 133.35)
+		(uuid "b933c33d-ba48-4af9-9059-3c9e7af31fb8")
+	)
+	(no_connect
+		(at 261.62 133.35)
+		(uuid "ba5d1642-56d6-4a95-8c8b-fe7f17e67f0b")
+	)
+	(no_connect
+		(at 193.04 73.66)
+		(uuid "e74238d7-7d7e-4a08-9708-a11b633d81d4")
+	)
+	(no_connect
+		(at 86.36 30.48)
+		(uuid "e7e15052-a62e-45a8-bbf5-bf29c5b00124")
+	)
+	(no_connect
+		(at 57.15 80.01)
+		(uuid "eded7dd0-8855-4ff4-888d-66749a0e88de")
+	)
+	(no_connect
+		(at 261.62 128.27)
+		(uuid "f8f08471-31f5-4543-83a1-bcdcaa0f15be")
+	)
+	(no_connect
+		(at 113.03 135.89)
+		(uuid "ffb63415-4300-4a2b-b99a-fa5108306b10")
+	)
+	(wire
+		(pts
+			(xy 224.79 83.82) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b6a768-785f-41ac-8bc2-75d81264ce46")
+	)
+	(wire
+		(pts
+			(xy 21.59 85.09) (xy 22.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053a7570-f980-4a32-834e-296ee3793667")
+	)
+	(wire
+		(pts
+			(xy 121.92 49.53) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05413f3b-b5bf-426b-9b12-86ea38b34a0a")
+	)
+	(wire
+		(pts
+			(xy 21.59 80.01) (xy 21.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d3d40e-01a5-4f26-a282-e307e2283e23")
+	)
+	(wire
+		(pts
+			(xy 21.59 135.89) (xy 24.13 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08357a43-a297-403c-81f6-5b63750998d4")
+	)
+	(wire
+		(pts
+			(xy 31.75 105.41) (xy 21.59 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098fceb9-d4ee-4ebc-934f-7c51fae78d7a")
+	)
+	(wire
+		(pts
+			(xy 224.79 110.49) (xy 226.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a15c486-3976-49d2-ab46-0b1f121c0881")
+	)
+	(wire
+		(pts
+			(xy 40.64 40.64) (xy 45.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d99cd88-40ec-407a-86e9-96fe2262aec8")
+	)
+	(wire
+		(pts
+			(xy 236.22 105.41) (xy 226.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5b3587-4334-4b57-8f97-730b03efc679")
+	)
+	(wire
+		(pts
+			(xy 40.64 35.56) (xy 40.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f81cb6-52f8-420e-8299-81229928f0e4")
+	)
+	(wire
+		(pts
+			(xy 226.06 133.35) (xy 226.06 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1263dc22-8e30-4b63-ae76-332506b5c213")
+	)
+	(wire
+		(pts
+			(xy 114.3 36.83) (xy 120.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f54ef7-9769-49fa-a6ea-5efdcf378844")
+	)
+	(wire
+		(pts
+			(xy 86.36 138.43) (xy 87.63 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db695c2-a886-4eeb-96c8-7492f56e1906")
+	)
+	(wire
+		(pts
+			(xy 267.97 31.75) (xy 271.78 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e088e80-b350-4641-b6c0-22b13f96af50")
+	)
+	(wire
+		(pts
+			(xy 87.63 83.82) (xy 90.17 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f250547-2185-4061-9583-13f06e3899a5")
+	)
+	(wire
+		(pts
+			(xy 134.62 110.49) (xy 134.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ca2454-b09d-4687-9e87-fd7115fa8a23")
+	)
+	(wire
+		(pts
+			(xy 261.62 83.82) (xy 269.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27539aaf-c2df-4e77-9e19-f3362ad0d568")
+	)
+	(wire
+		(pts
+			(xy 157.48 110.49) (xy 160.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27905097-7c4d-4168-b239-def94d1b992d")
+	)
+	(wire
+		(pts
+			(xy 261.62 110.49) (xy 269.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3087dbb7-e077-4cec-a97f-affa65d3ba71")
+	)
+	(wire
+		(pts
+			(xy 21.59 105.41) (xy 21.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3900339a-ab76-410b-983e-ec9e0ea55727")
+	)
+	(wire
+		(pts
+			(xy 40.64 35.56) (xy 60.96 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5cbc62-23ac-4397-ba6e-4068ba906a2c")
+	)
+	(wire
+		(pts
+			(xy 204.47 83.82) (xy 204.47 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae9df93-ad4d-4fac-898a-ac12e13cc0b4")
+	)
+	(wire
+		(pts
+			(xy 167.64 78.74) (xy 157.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d83d85a-fbad-40fc-9f57-8bbbb51fe086")
+	)
+	(wire
+		(pts
+			(xy 269.24 83.82) (xy 269.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45abc6bd-39cc-4a80-919e-0943f3fc9d18")
+	)
+	(wire
+		(pts
+			(xy 20.32 85.09) (xy 21.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49bab5a7-228b-4e05-bedf-802775c45097")
+	)
+	(wire
+		(pts
+			(xy 167.64 105.41) (xy 157.48 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a1dec75-6dad-4fd4-bf55-74b450fa8a47")
+	)
+	(wire
+		(pts
+			(xy 215.9 41.91) (xy 215.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4d3685-78fa-4291-b621-bb1fa7e86a4b")
+	)
+	(wire
+		(pts
+			(xy 120.65 29.21) (xy 114.3 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50173931-03f4-45e6-a69f-508ec6ea6502")
+	)
+	(wire
+		(pts
+			(xy 123.19 83.82) (xy 134.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51beb80e-a55f-4500-8a4d-04cb27fed590")
+	)
+	(wire
+		(pts
+			(xy 123.19 110.49) (xy 134.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d8703d-11a1-4f89-863f-9e5020020b4e")
+	)
+	(wire
+		(pts
+			(xy 267.97 36.83) (xy 271.78 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647454ae-4d0a-433f-9efc-c21fc79a8684")
+	)
+	(wire
+		(pts
+			(xy 64.77 110.49) (xy 62.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6513e799-e2b2-4d55-a464-206ebc753f9a")
+	)
+	(wire
+		(pts
+			(xy 120.65 34.29) (xy 114.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690001d7-c2ec-4662-a18c-f1d486e849a6")
+	)
+	(wire
+		(pts
+			(xy 226.06 105.41) (xy 226.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7e1bc5-585c-4e75-ba62-9aa44d57f6bd")
+	)
+	(wire
+		(pts
+			(xy 193.04 110.49) (xy 204.47 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731f801a-3a43-48ba-9110-74fb64040bcf")
+	)
+	(wire
+		(pts
+			(xy 57.15 110.49) (xy 62.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74efd580-ec8d-49f0-a072-fab4f006b886")
+	)
+	(wire
+		(pts
+			(xy 87.63 105.41) (xy 87.63 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78df07ee-ad55-486d-92b7-6620da9baf39")
+	)
+	(wire
+		(pts
+			(xy 97.79 73.66) (xy 92.71 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e4b778-78d1-4d47-9ff7-c3da01f0d1a6")
+	)
+	(wire
+		(pts
+			(xy 121.92 46.99) (xy 114.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6c0abd-0440-4342-a76c-b1c6900a3b0e")
+	)
+	(wire
+		(pts
+			(xy 21.59 130.81) (xy 21.59 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1fbb54-cd36-47a9-9e12-1529eb2d177f")
+	)
+	(wire
+		(pts
+			(xy 224.79 138.43) (xy 226.06 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "827231ec-f7bc-42c6-85fe-3034c2f4cca2")
+	)
+	(wire
+		(pts
+			(xy 269.24 110.49) (xy 269.24 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f0410b-dea5-4672-95b8-bc04911d1a3c")
+	)
+	(wire
+		(pts
+			(xy 123.19 138.43) (xy 134.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872fecb7-bb82-49d2-b507-c4df5da6248c")
+	)
+	(wire
+		(pts
+			(xy 31.75 85.09) (xy 30.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908d744d-883a-4018-85ff-0eb7b14e663b")
+	)
+	(wire
+		(pts
+			(xy 87.63 138.43) (xy 90.17 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9729d102-8f4a-44c2-82f0-944828041c24")
+	)
+	(wire
+		(pts
+			(xy 121.92 52.07) (xy 114.3 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9beb07e2-6afb-4aaf-89ee-bbaf34d1ca12")
+	)
+	(wire
+		(pts
+			(xy 87.63 78.74) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a242082d-debc-4441-aa01-4cfa6bb479a5")
+	)
+	(wire
+		(pts
+			(xy 33.02 40.64) (xy 40.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43e5445-54db-478f-8551-d4c3830c1922")
+	)
+	(wire
+		(pts
+			(xy 226.06 78.74) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a703a5c3-6f11-4496-84ec-ccb8a35e94cd")
+	)
+	(wire
+		(pts
+			(xy 226.06 83.82) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7476f01-404f-45a0-becb-b714274b4923")
+	)
+	(wire
+		(pts
+			(xy 226.06 110.49) (xy 228.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abac2e30-bad8-401c-88b0-438ef69d6069")
+	)
+	(wire
+		(pts
+			(xy 62.23 110.49) (xy 62.23 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac41ffda-1d70-4a87-b246-fb89a6ebea08")
+	)
+	(wire
+		(pts
+			(xy 62.23 85.09) (xy 62.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acaf9d26-d076-4a7c-90e5-6c1b99ba76b3")
+	)
+	(wire
+		(pts
+			(xy 157.48 133.35) (xy 157.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad30eb52-1223-42c2-ba88-fc1ba127f40b")
+	)
+	(wire
+		(pts
+			(xy 242.57 41.91) (xy 215.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5c2261-f024-476b-bf0d-c3d00cd5f1b4")
+	)
+	(wire
+		(pts
+			(xy 20.32 110.49) (xy 21.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc869fc-f2e7-4e5a-b92c-39aa4f66e3da")
+	)
+	(wire
+		(pts
+			(xy 167.64 73.66) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add8849f-83c5-4836-a0b5-e270f972768e")
+	)
+	(wire
+		(pts
+			(xy 226.06 138.43) (xy 228.6 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a01869-37f0-4689-a156-a5ab5504e8fe")
+	)
+	(wire
+		(pts
+			(xy 157.48 138.43) (xy 160.02 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57ae1f9-5543-49f3-9bb1-60d52d5be1a2")
+	)
+	(wire
+		(pts
+			(xy 59.69 30.48) (xy 60.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6573662-8395-4371-826c-dae067fa1562")
+	)
+	(wire
+		(pts
+			(xy 193.04 138.43) (xy 204.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba240887-2111-42b1-8c5d-492250d8cb37")
+	)
+	(wire
+		(pts
+			(xy 97.79 133.35) (xy 87.63 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce52211-357a-457a-a355-7db3b0be5a8e")
+	)
+	(wire
+		(pts
+			(xy 156.21 138.43) (xy 157.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26754b3-a60c-469e-980e-07ee22c94486")
+	)
+	(wire
+		(pts
+			(xy 156.21 110.49) (xy 157.48 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44271cf-c39e-4d58-95d8-67bafb9ea11f")
+	)
+	(wire
+		(pts
+			(xy 31.75 74.93) (xy 26.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c914dd0e-220d-4010-848e-f8c4f168e913")
+	)
+	(wire
+		(pts
+			(xy 97.79 105.41) (xy 87.63 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca35cf21-09d7-4423-919d-d8052274c4f4")
+	)
+	(wire
+		(pts
+			(xy 62.23 135.89) (xy 57.15 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9292a8-a8f7-4452-b610-64f1edbe1eed")
+	)
+	(wire
+		(pts
+			(xy 31.75 130.81) (xy 21.59 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbed9718-659a-4758-b2ad-2543c9d6177c")
+	)
+	(wire
+		(pts
+			(xy 86.36 110.49) (xy 87.63 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce8742ac-6ca9-4808-96fe-0740825ba3a7")
+	)
+	(wire
+		(pts
+			(xy 193.04 83.82) (xy 204.47 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09eaf0e-a602-4f7e-98b3-f6a4272ca14c")
+	)
+	(wire
+		(pts
+			(xy 271.78 31.75) (xy 271.78 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d1f8fb-b7e1-4abf-b824-5d705ab69d0f")
+	)
+	(wire
+		(pts
+			(xy 236.22 78.74) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a83347-b512-498e-bb14-3490c514c8b4")
+	)
+	(wire
+		(pts
+			(xy 261.62 138.43) (xy 269.24 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d716eddd-e131-45c6-84b7-276fca94ff9b")
+	)
+	(wire
+		(pts
+			(xy 156.21 83.82) (xy 157.48 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86671f0-bee1-46f8-9c4d-aa4b308941d2")
+	)
+	(wire
+		(pts
+			(xy 87.63 110.49) (xy 90.17 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daab19cf-23af-4db2-8ae5-be1bfa347ad3")
+	)
+	(wire
+		(pts
+			(xy 114.3 54.61) (xy 121.92 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbefe147-1f92-48e1-9235-a7a1b031b4d2")
+	)
+	(wire
+		(pts
+			(xy 157.48 105.41) (xy 157.48 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc80a7f0-0753-4f53-87ff-81a1f46fe042")
+	)
+	(wire
+		(pts
+			(xy 271.78 36.83) (xy 271.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2e62de-1d5f-4273-8fce-3fedcd048294")
+	)
+	(wire
+		(pts
+			(xy 236.22 133.35) (xy 226.06 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb801d1-beff-4d46-9b94-ac95fbe8bb56")
+	)
+	(wire
+		(pts
+			(xy 20.32 135.89) (xy 21.59 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0074d9c-4b04-4240-b38f-42db361f9ddb")
+	)
+	(wire
+		(pts
+			(xy 167.64 133.35) (xy 157.48 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8aa72f2-d58c-4da5-bdb5-a477942aa331")
+	)
+	(wire
+		(pts
+			(xy 57.15 85.09) (xy 62.23 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8eaac63-5dc5-4905-a2f9-03a432076f2b")
+	)
+	(wire
+		(pts
+			(xy 271.78 48.26) (xy 215.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90034e4-778d-43d3-9868-c3d0db54b9a5")
+	)
+	(wire
+		(pts
+			(xy 120.65 31.75) (xy 114.3 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2f7daf-60ef-4271-936e-52ba27e74380")
+	)
+	(wire
+		(pts
+			(xy 157.48 83.82) (xy 160.02 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f40ccd-8fe6-4276-94d8-dfd198565a2f")
+	)
+	(wire
+		(pts
+			(xy 157.48 78.74) (xy 157.48 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f125e9c9-7044-4490-82ef-2fd4d19a8692")
+	)
+	(wire
+		(pts
+			(xy 204.47 110.49) (xy 204.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14649f3-8742-4035-9acb-be0b55040b00")
+	)
+	(wire
+		(pts
+			(xy 31.75 80.01) (xy 21.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e0290a-99fa-4506-bb83-f744bd9af61c")
+	)
+	(wire
+		(pts
+			(xy 134.62 83.82) (xy 134.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f373add8-73a8-4e8a-89c2-5eaa723fadff")
+	)
+	(wire
+		(pts
+			(xy 21.59 110.49) (xy 24.13 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a0e841-2d50-4ccd-a235-51d3c39ea68e")
+	)
+	(wire
+		(pts
+			(xy 97.79 78.74) (xy 87.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6363cbc-c276-45e8-8b99-37dcbd3a830d")
+	)
+	(wire
+		(pts
+			(xy 86.36 83.82) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a1ac22-abf9-48f2-9f5d-ac49b68ab27f")
+	)
+	(wire
+		(pts
+			(xy 53.34 40.64) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd011b08-2e8e-488d-9210-4616c1620b49")
+	)
+	(wire
+		(pts
+			(xy 87.63 133.35) (xy 87.63 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe23edce-6b1a-4e63-bfa8-7160b250c634")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 86.36 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0092a110-2c31-4064-8c9b-513fde3c4320")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.5043 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 20.32 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02ab61f8-460d-4a58-96fb-f22babd36b68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.4643 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 156.21 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04bdae94-f51b-4c23-ac6c-cff64b7f4149")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.3543 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BACK_LED"
+		(shape input)
+		(at 269.24 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09afb335-40be-43de-88ff-5aa1f02cae4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.5385 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL0"
+		(shape input)
+		(at 120.65 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bb51bd2-cb9b-4f81-80a8-9d13aaeb6110")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.3523 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 20.32 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0eb34e75-0a0b-41b0-81a1-6d2c75c26e29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.4643 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 33.02 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1510020c-348c-4807-8d77-238c02ef6d05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1643 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BACK_LED"
+		(shape input)
+		(at 86.36 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "153b72e2-6d66-4a60-a427-2553a53b8841")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.6585 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 215.9 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "162ee946-f8e3-46d4-bec5-04df6271b7e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.0443 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VHF1_BTN"
+		(shape input)
+		(at 26.67 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17f00c1f-98e3-46b4-9715-1a985fa8984e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.4319 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VOR_BTN"
+		(shape input)
+		(at 167.64 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d197d1e-20fc-43f1-8d4a-b53b05f76ffa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RADIO_KHZ_LEFT"
+		(shape input)
+		(at 242.57 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2207fb65-42c9-4c5f-abde-8f32d048f869")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.0424 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 86.36 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "263057d1-60ba-4b3a-8d6d-e7b41042ed3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.5043 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BFO_BTN"
+		(shape input)
+		(at 236.22 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c01a8c0-8b45-4c21-a641-7d9eeff30522")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BACK_LED"
+		(shape input)
+		(at 134.62 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32705774-f402-4380-8c5b-dee065789614")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.9185 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 156.21 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "335c7880-8cc2-46bd-aba7-7d2a02e28ca2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.3543 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADF_BTN"
+		(shape input)
+		(at 236.22 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42906477-5ead-4146-a2e5-109fbe553f43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.2519 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 224.79 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49380430-ffaa-4831-bfd3-7001b46d31fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.9343 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AM_BTN"
+		(shape input)
+		(at 97.79 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51b6d3e1-7d59-4139-97ca-6a80bba22b1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.7291 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HF1_BTN"
+		(shape input)
+		(at 92.71 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5469d099-1549-4ee4-9e6a-5a493de88184")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.5605 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 156.21 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57557270-c966-4634-bfb2-2b4678db0e58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.3543 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V31"
+		(shape input)
+		(at 121.92 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6183b24e-1783-4abd-9a56-9b30a7199098")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.1947 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VHF2_BTN"
+		(shape input)
+		(at 31.75 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a03b944-784b-4ad1-b7f3-f7e200aa8abd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.5119 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BACK_LED"
+		(shape input)
+		(at 204.47 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a235a10-f8a6-4ef1-bdeb-a5cdeb1a31f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.7685 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ILS_BTN"
+		(shape input)
+		(at 167.64 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77b2c3e2-0d7d-4b66-af2c-ab63f18c8d31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.2767 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V31"
+		(shape input)
+		(at 120.65 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b0cc3e5-38f6-442c-8f2d-71bf0b7aeeaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.9247 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VHF3_BTN"
+		(shape input)
+		(at 31.75 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e6c8f38-9044-43f2-bedc-617d39e4eb87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.5119 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BACK_LED"
+		(shape input)
+		(at 64.77 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e93e75c-8923-4dcc-bf5d-64c5d70589bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.0685 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL1"
+		(shape input)
+		(at 121.92 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "841379a9-dcd8-4e3c-b3b1-6c7fdf450d6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.6223 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 20.32 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84443911-d172-47fa-8b43-5699834c2b1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.4643 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NAV_BTN"
+		(shape input)
+		(at 162.56 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f3f8f9c-e2d5-4bcf-aa31-f76a18c54789")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.5314 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HF2_BTN"
+		(shape input)
+		(at 97.79 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9445d8a9-880c-41a2-b5e9-28f7d657ed55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.6405 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 224.79 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1341239-a61d-4c6e-a144-801f9fb5ad9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.9343 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 224.79 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a72ee67a-32aa-4bac-89dd-9cc684ccfa9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.9343 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RADIO_MHZ_RIGHT"
+		(shape input)
+		(at 242.57 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7f5032f-2903-452c-b097-b204002a4d6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.6514 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 121.92 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "accb6d9b-d05c-476f-a292-5377314bdd2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.7757 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 120.65 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b32816d5-d3db-4152-95ba-dd73aafc9110")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.5057 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA1"
+		(shape input)
+		(at 121.92 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4f24292-fd34-48fd-b85c-641344258241")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.6828 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 86.36 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bcc5cec2-dd7c-4a28-a806-f5573154f357")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.5043 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RADIO_MHZ_LEFT"
+		(shape input)
+		(at 242.57 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca794421-60a4-4c9c-b62d-b545a3a1b1bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.861 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XFER_BTN"
+		(shape input)
+		(at 59.69 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf11db8f-dcf8-4c37-acc8-8d95e06c4952")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.452 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA0"
+		(shape input)
+		(at 120.65 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfe0245e-918c-4fa9-9ce1-a8a95b8efa2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.4128 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MLS_BTN"
+		(shape input)
+		(at 236.22 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2c3c3ff-5590-4c6c-9ba2-47d124de7f64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.0101 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RADIO_KHZ_RIGHT"
+		(shape input)
+		(at 242.57 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5257677-bec0-4dfc-bb74-4ad62460fd7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.8328 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a04cd7a-6f0a-4bae-aedd-e7953ce45a1c")
+		(property "Reference" "R27"
+			(at 232.41 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_LADF"
+			(at 232.41 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 232.41 108.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db3d81c2-5275-4f0d-9e6a-a61e3f31743f")
+		)
+		(pin "2"
+			(uuid "ff79d9f3-957b-4112-b6b4-b5133c98977c")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3592e8b1-8e49-41e0-9be1-721766537849")
+		(property "Reference" "R10"
+			(at 93.98 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_LAM"
+			(at 93.98 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 93.98 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d12dd68-4795-49f5-937b-a7cc6ec3eff7")
+		)
+		(pin "2"
+			(uuid "17044892-58bf-4b40-be49-0bdfbc685cd7")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:TL3240F260R")
+		(at 110.49 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eb6b98f-ee1c-4316-8c59-7335dc9588c7")
+		(property "Reference" "SW6"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HF1"
+			(at 110.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:SW_TL3240F260R"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL6275.pdf"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch with LED"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4364809"
+			(at 110.49 68.58 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3240F260R"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "496bdbb2-7612-4b9d-ac2b-ceeaaf06a3f4")
+		)
+		(pin "2"
+			(uuid "4c5c700b-59ba-43e7-b6ad-614e1e497459")
+		)
+		(pin "4"
+			(uuid "9682a9b3-54b7-45a4-bcea-3a7e4b69ddea")
+		)
+		(pin "6"
+			(uuid "595a0518-baf5-4f92-818b-8059af43eb19")
+		)
+		(pin "5"
+			(uuid "778944e8-2932-48d0-b81e-49b45726cda6")
+		)
+		(pin "3"
+			(uuid "0c83352c-ffa9-48a5-b145-11869bb471dc")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:TL3240F260R")
+		(at 110.49 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4145950f-c284-4a2f-8f61-9ff6c23c335e")
+		(property "Reference" "SW7"
+			(at 110.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HF2"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:SW_TL3240F260R"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL6275.pdf"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch with LED"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4364809"
+			(at 110.49 95.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3240F260R"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffee92ed-6106-4560-a633-d51948357a80")
+		)
+		(pin "2"
+			(uuid "8e38c794-b03d-403a-9639-e4b7b94bdecb")
+		)
+		(pin "4"
+			(uuid "87af4e69-070b-4604-929d-f7465184b7b9")
+		)
+		(pin "6"
+			(uuid "718d9158-ad59-4b05-8454-90a389ed7438")
+		)
+		(pin "5"
+			(uuid "3b1dadf2-75b3-4d2e-a03c-002710595368")
+		)
+		(pin "3"
+			(uuid "bb05b066-148e-4d32-a32a-1466791409e6")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4984b5fe-e229-4d48-af5c-8263b249eb6f")
+		(property "Reference" "R25"
+			(at 163.83 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_LILS"
+			(at 163.83 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 163.83 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5fe888-8d1a-4588-82fd-2e0990cf06e4")
+		)
+		(pin "2"
+			(uuid "34531a6f-0bcc-4df4-bf19-d95309251285")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ad840fa-f85b-4097-968e-804eca52a00c")
+		(property "Reference" "R1"
+			(at 49.53 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XFER_LED_R"
+			(at 49.53 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 49.53 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e951005-8e0b-42fe-bdb3-6733c1ea4070")
+		)
+		(pin "2"
+			(uuid "5343d9ee-1d46-478b-902e-2dcbc222711e")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:TL3240F260R")
+		(at 44.45 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51a73a29-e2fb-449e-a1a0-e1a0d36459a6")
+		(property "Reference" "SW1"
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VHF1_SW"
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:SW_TL3240F260R"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL6275.pdf"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch with LED"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4364809"
+			(at 44.45 69.85 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3240F260R"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23152aad-94cd-4a8e-a44b-2242f7835948")
+		)
+		(pin "2"
+			(uuid "f43a6502-6db3-492a-878a-ec4d78ef643b")
+		)
+		(pin "4"
+			(uuid "24fb1891-2483-4e0a-a4f9-dec50d606fab")
+		)
+		(pin "6"
+			(uuid "2ae9ef96-027c-4bab-a3d6-bd5e46fb49a0")
+		)
+		(pin "5"
+			(uuid "cea0033b-a8ef-4bad-b031-6170c24c4ac8")
+		)
+		(pin "3"
+			(uuid "c4f084fd-77fa-4a77-8c52-dd3f7628ae42")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:TL3240F260R")
+		(at 180.34 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5aafbb7a-4a1b-4bfa-a125-1ab24420b742")
+		(property "Reference" "SW10"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VOR"
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:SW_TL3240F260R"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL6275.pdf"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch with LED"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4364985"
+			(at 180.34 95.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3240F260R"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1056fbf-d88a-49bd-ac6c-85531e4bcb9d")
+		)
+		(pin "2"
+			(uuid "557ef1cc-d408-40ef-ba09-dd8d29eb0530")
+		)
+		(pin "4"
+			(uuid "e4c96fd0-e9b0-4dec-93b7-fbd9a62f66d6")
+		)
+		(pin "6"
+			(uuid "8e413ec8-9572-4bad-afbb-9d823a6cac15")
+		)
+		(pin "5"
+			(uuid "00d67f06-426a-4a12-80f0-f06006da622b")
+		)
+		(pin "3"
+			(uuid "8c6956e6-bda6-46fd-8e64-44502a4567f4")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64367110-111c-4f5c-a16d-cac928906fdf")
+		(property "Reference" "R28"
+			(at 232.41 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_LBFO"
+			(at 232.41 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 232.41 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0fc06a1-f855-4068-9c30-3fc8264ceca7")
+		)
+		(pin "2"
+			(uuid "1e6f4bcc-dae0-44c3-9c3b-cf96bd0e658b")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:TL3240F260R")
+		(at 44.45 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c58464f-9c15-47fb-8401-1df9c04bcf8a")
+		(property "Reference" "SW2"
+			(at 44.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VHF2_SW"
+			(at 44.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:SW_TL3240F260R"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL6275.pdf"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch with LED"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4364809"
+			(at 44.45 95.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3240F260R"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e24eb409-ac22-4115-a5c3-46a4f367f6b9")
+		)
+		(pin "2"
+			(uuid "67f7c1aa-e249-46f8-9d7a-63700b43ad8d")
+		)
+		(pin "5"
+			(uuid "4f25dc7e-609b-43ec-86bf-3bee0ddf52f8")
+		)
+		(pin "4"
+			(uuid "81ad75b1-9f45-4100-a3f6-d5b666c4d879")
+		)
+		(pin "6"
+			(uuid "f1184cc4-c862-4a98-8e9e-7ae15610d1e4")
+		)
+		(pin "3"
+			(uuid "93896d11-d50d-4043-ae99-acef8cc512fd")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 109.22 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "723f4d3c-b4f3-4dba-b655-ba7a74e35fd5")
+		(property "Reference" "J1"
+			(at 109.22 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VHF Active OLED"
+			(at 109.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8ef5f87d-67b1-48a8-b207-0c859f8e4cef")
+		)
+		(pin "4"
+			(uuid "973d62c0-6d71-46de-a0f4-81b7bf2ebfbe")
+		)
+		(pin "2"
+			(uuid "6d9baf04-4472-4f34-a0b3-4fd170d2dd31")
+		)
+		(pin "1"
+			(uuid "a3871005-0c43-4c68-80c4-3858cd35005e")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "756c1601-1038-4112-837a-7b5d07e42b55")
+		(property "Reference" "R26"
+			(at 232.41 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_LMLS"
+			(at 232.41 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 232.41 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77fa8de4-5841-41c4-87d0-b3bdf0aa1009")
+		)
+		(pin "2"
+			(uuid "e6606282-3297-4436-ac81-a62c415a2615")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ba60b44-6fb0-4527-92fc-f3e28f20a5a5")
+		(property "Reference" "R8"
+			(at 93.98 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_LHF1"
+			(at 93.98 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 93.98 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7013267b-bb8d-4c24-bc2b-4742505c48f7")
+		)
+		(pin "2"
+			(uuid "4eab7d5b-7024-4bc2-bc89-801b4b5f0f4d")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:EC11EBB24C03")
+		(at 255.27 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87f2e503-0e29-42a3-9f47-836af309fed9")
+		(property "Reference" "U1"
+			(at 255.27 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ENCODER"
+			(at 255.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:EC11EBB24C03"
+			(at 264.16 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/EC11EBB24C03.pdf"
+			(at 264.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Alps 15 Pulse Incremental Mechanical Rotary Encoder with a 3.5 (Inner Shaft) mm, 6 (Outer Shaft) mm"
+			(at 264.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "33"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ALPS Electric"
+			(at 264.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EC11EBB24C03"
+			(at 264.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "688-EC11EBB24C03"
+			(at 264.16 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/EC11EBB24C03?qs=m0BA540hBPc5hAJ6UyzIrA%3D%3D"
+			(at 264.16 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 264.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 264.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 264.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 264.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MobiFlight_Shop" "https://shop.mobiflight.com/product/dual-rotary-encoder"
+			(at 275.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A2"
+			(uuid "74f97240-8013-4515-88f5-657c8038f3c8")
+		)
+		(pin "D1"
+			(uuid "d8e58cf3-f276-4583-9b74-71acd4ae83fc")
+		)
+		(pin "B1"
+			(uuid "511c6a84-9273-4385-8701-e55de96fb9a9")
+		)
+		(pin "B2"
+			(uuid "ea4d7576-3d1f-4d8e-aa84-c1025be447f0")
+		)
+		(pin "C2"
+			(uuid "290d9072-c492-44a9-9bd1-390586a87744")
+		)
+		(pin "E1"
+			(uuid "03242bfe-e692-42d6-8940-44fc0656a448")
+		)
+		(pin "C1"
+			(uuid "5ab3428d-0cae-4a6b-a9fd-f09eb42bc10f")
+		)
+		(pin "MH2"
+			(uuid "9f60283e-f997-4980-ba5c-24442fd2ddee")
+		)
+		(pin "A1"
+			(uuid "db57f572-52f7-4fb8-a7db-bac7f480d3a9")
+		)
+		(pin "MH1"
+			(uuid "178bf100-348e-4f0d-8277-cde217463731")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92ebab2c-079d-481c-b17e-89dc81e7fbd6")
+		(property "Reference" "R24"
+			(at 163.83 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_LVOR"
+			(at 163.83 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 163.83 108.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a87dc434-c042-4032-a14f-cc10d52bb116")
+		)
+		(pin "2"
+			(uuid "f8b80830-815a-4281-9cc7-bc303927c8ce")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a27a6e9f-dce6-45d5-b430-f638e2160ed5")
+		(property "Reference" "R9"
+			(at 93.98 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_LHF2"
+			(at 93.98 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 93.98 108.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdadc58b-1dca-411e-9d89-f13077481705")
+		)
+		(pin "2"
+			(uuid "9243834f-737a-4ae2-b20a-d2c3d7fbe519")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 109.22 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae82ac56-1c4d-4aa7-b925-278d55788c85")
+		(property "Reference" "J2"
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VHF Standby OLED"
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 109.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3d6bbb84-be0e-4975-b9c5-0eb5f718608c")
+		)
+		(pin "4"
+			(uuid "6f81eb84-e12d-4cd5-8d62-75bfcd8059e3")
+		)
+		(pin "2"
+			(uuid "091ff1ef-453f-4d60-a2bc-e4498d5c4e45")
+		)
+		(pin "1"
+			(uuid "e597c19e-f9b1-48dc-917f-ca68cb56a12a")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:TL3240F260R")
+		(at 180.34 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afb990e2-687f-460c-96f9-cfcc2bdbc67c")
+		(property "Reference" "SW11"
+			(at 180.34 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ILS"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:SW_TL3240F260R"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL6275.pdf"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch with LED"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4364985"
+			(at 180.34 123.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3240F260R"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "755c9de7-61bd-41ac-9010-b68f8af690d6")
+		)
+		(pin "2"
+			(uuid "3b30a3d8-86c7-46a8-a7c2-0154e0b1a6b0")
+		)
+		(pin "4"
+			(uuid "9d42b23e-07f7-43cd-8ded-ce8aa9c0dd58")
+		)
+		(pin "6"
+			(uuid "39614160-a092-49c6-bdd8-220b9a2a1b3e")
+		)
+		(pin "5"
+			(uuid "ab89dcd4-fb8a-41d6-8849-87e3be640d44")
+		)
+		(pin "3"
+			(uuid "3d2c8134-828a-4aec-bb16-bce985f3c3d5")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:TL3240F260R")
+		(at 248.92 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b08f2212-8dba-49b6-be80-dec9bc12b976")
+		(property "Reference" "SW14"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BFO"
+			(at 248.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:SW_TL3240F260R"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL6275.pdf"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch with LED"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4364985"
+			(at 248.92 123.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3240F260R"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06aaf00b-379d-4057-8f91-1df9388a068c")
+		)
+		(pin "2"
+			(uuid "7adee0c6-1fbf-49f0-8805-742aed28a2b4")
+		)
+		(pin "4"
+			(uuid "f9e4c204-3130-49dd-bd81-e42ce6e9211a")
+		)
+		(pin "6"
+			(uuid "5534c7f5-5d30-475a-90b8-fda95cb83067")
+		)
+		(pin "5"
+			(uuid "e3341a5e-453c-45d6-bea8-c9ce7a0a657e")
+		)
+		(pin "3"
+			(uuid "92471cde-b82e-491b-835d-e90ce52ec074")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:TL3240F260R")
+		(at 73.66 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2239204-75db-4435-8fff-93981a1019b4")
+		(property "Reference" "SW4"
+			(at 73.66 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XFER_SW"
+			(at 73.66 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:SW_TL3240F260R"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL6275.pdf"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch with LED"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4364985"
+			(at 73.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3240F260R"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78c2a640-b94a-46cb-9dfa-8a08a4ec36b3")
+		)
+		(pin "2"
+			(uuid "b466b7d2-4e14-4cb0-86db-b8a0c88b541b")
+		)
+		(pin "5"
+			(uuid "33506670-4721-4e1a-84f4-4b91f0aaa949")
+		)
+		(pin "3"
+			(uuid "84659a42-e9d3-458b-af82-c38ed3872029")
+		)
+		(pin "6"
+			(uuid "a759e887-8240-4284-88ed-b633f8eddcf7")
+		)
+		(pin "4"
+			(uuid "2d766d45-0670-420d-8205-301d1136de00")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 26.67 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4d0e9a7-c3a3-4bac-9699-a9611f3bbc30")
+		(property "Reference" "R5"
+			(at 26.67 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_LED1"
+			(at 26.67 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 26.67 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 26.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a79ec2e0-691e-48a3-8b62-e9c504677d3e")
+		)
+		(pin "2"
+			(uuid "5d3da619-bf20-463a-be5f-7f3bdb1d74cd")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be9eb70d-19c6-4c2d-8df0-7df8fcbe384f")
+		(property "Reference" "R23"
+			(at 163.83 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_LNAV"
+			(at 163.83 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 163.83 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff334db9-7b0e-4654-804a-3b1ff885a822")
+		)
+		(pin "2"
+			(uuid "75a9ed0d-557f-41d8-a391-3bb3231fdf68")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 27.94 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4fc55e5-4f00-4a1c-beed-275cd754ac56")
+		(property "Reference" "R6"
+			(at 27.94 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_LED2"
+			(at 27.94 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 27.94 108.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 27.94 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15038f7b-c4f9-46d4-9b8c-d85448303a61")
+		)
+		(pin "2"
+			(uuid "a800019e-e9c6-463e-b834-00493ae57bd8")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 27.94 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcd06084-47af-4dc0-b2f2-da3ef9557886")
+		(property "Reference" "R7"
+			(at 27.94 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_LED3"
+			(at 27.94 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 27.94 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c7614cb-d96c-42c4-8ca4-3ac0fe5c035d")
+		)
+		(pin "2"
+			(uuid "6702603c-f003-4123-b74d-cf379572861b")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:TL3240F260R")
+		(at 248.92 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0153369-7f05-41bf-a801-a29204bb0324")
+		(property "Reference" "SW12"
+			(at 248.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MLS"
+			(at 248.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:SW_TL3240F260R"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL6275.pdf"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch with LED"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4364985"
+			(at 248.92 68.58 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3240F260R"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5559907-012e-4a9b-9008-08c51b16ac18")
+		)
+		(pin "2"
+			(uuid "681ea50e-f6ed-4b36-8ce8-0f011dcbfede")
+		)
+		(pin "4"
+			(uuid "fcbcb145-9c3a-418b-8cf5-23bfd4bdd4bf")
+		)
+		(pin "6"
+			(uuid "830140d0-ad1a-4100-84e3-4948456fa8ed")
+		)
+		(pin "5"
+			(uuid "8ba6049c-d84a-466f-a006-596bc4aedec8")
+		)
+		(pin "3"
+			(uuid "d17084bc-1402-4d79-a58f-b96985a73e0d")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:TL3240F260R")
+		(at 180.34 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7206d11-3e78-4f20-badf-91535468cbe3")
+		(property "Reference" "SW9"
+			(at 180.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NAV"
+			(at 180.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:SW_TL3240F260R"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL6275.pdf"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch with LED"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4364985"
+			(at 180.34 68.58 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3240F260R"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ee24dda-2b92-4686-92b0-2337ca4f306c")
+		)
+		(pin "2"
+			(uuid "96c16588-32d8-453b-8263-a6911444d0a5")
+		)
+		(pin "4"
+			(uuid "3d642abe-275d-4948-8e95-30d4550acd91")
+		)
+		(pin "6"
+			(uuid "a4c78936-5abf-46d8-83ac-f19e7ee4f4f9")
+		)
+		(pin "5"
+			(uuid "872c4759-fe09-45fc-875e-23ff6c469fb3")
+		)
+		(pin "3"
+			(uuid "fd17b5dc-2b29-4897-a0ae-2272965281cc")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:TL3240F260R")
+		(at 248.92 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebd9d630-0936-4d9a-b28b-baee92b9ebc7")
+		(property "Reference" "SW13"
+			(at 248.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADF"
+			(at 248.92 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:SW_TL3240F260R"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL6275.pdf"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch with LED"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4364985"
+			(at 248.92 95.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3240F260R"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb0645aa-4d19-4736-abf4-08950d4c08e1")
+		)
+		(pin "2"
+			(uuid "388a6d4c-6a1f-4ce4-b936-e5f631a97aa8")
+		)
+		(pin "4"
+			(uuid "5d7e3c57-2509-4ada-a46c-5ec88833de94")
+		)
+		(pin "6"
+			(uuid "c1fe3461-4d60-4c71-a155-13bda8ab4ebe")
+		)
+		(pin "5"
+			(uuid "badcd138-7269-4c05-8e4c-1775032fd55c")
+		)
+		(pin "3"
+			(uuid "b977d264-268e-4254-af8c-4d0255688f55")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:TL3240F260R")
+		(at 44.45 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec5ccbe5-0cde-4c11-8429-36d7fa2a1f8d")
+		(property "Reference" "SW3"
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VHF3_SW"
+			(at 44.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:SW_TL3240F260R"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL6275.pdf"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch with LED"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4364809"
+			(at 44.45 120.65 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3240F260R"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "900c7b27-16ad-49c5-87d8-cb247ef33868")
+		)
+		(pin "2"
+			(uuid "4d497c22-ca05-433f-a6f0-36df3b2b0955")
+		)
+		(pin "3"
+			(uuid "2aa1ff5d-3faa-4235-854d-1a12758c8ebc")
+		)
+		(pin "5"
+			(uuid "7f14399a-1c56-45b3-a364-672f2d4bffeb")
+		)
+		(pin "6"
+			(uuid "f545d4fe-0d77-4464-8c9a-988112eb43e1")
+		)
+		(pin "4"
+			(uuid "f82b4414-75a8-42a7-8a55-b8bbb20ee740")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SimPanel:TL3240F260R")
+		(at 110.49 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f34fd1a3-2e40-43a4-b87a-911f0cf0be3c")
+		(property "Reference" "SW8"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AM"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SimPanel:SW_TL3240F260R"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2022/06/TL6275.pdf"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch with LED"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4364809"
+			(at 110.49 123.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.05mm"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=eda"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3240F260R/E-Switch/view-part/?ref=snap"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TL3240F260R"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTactile Switch SPST-NO Top Actuated Surface Mount\n"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4449ae88-7e38-442d-a207-915abad15d09")
+		)
+		(pin "2"
+			(uuid "e38800d2-77e3-4332-abf9-bb750e05c317")
+		)
+		(pin "4"
+			(uuid "c4bef16e-08f1-4591-bf96-c43280d53995")
+		)
+		(pin "6"
+			(uuid "b283d1bf-55eb-4fae-9957-1a720981ca6e")
+		)
+		(pin "5"
+			(uuid "2c4dfb52-899c-40ee-9a33-47c69fa53e5c")
+		)
+		(pin "3"
+			(uuid "9a5ac0fd-21f8-48f3-9323-89e2fe6e9018")
+		)
+		(instances
+			(project "RMP_V1"
+				(path "/b9be84f1-e651-44fb-b78f-cb94eb0b0041/95afcad2-cda3-4819-8044-611e6cfa0fa2"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

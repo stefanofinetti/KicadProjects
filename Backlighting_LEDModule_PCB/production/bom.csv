@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"H1, H2, H3",MountingHole_3.2mm_M3_DIN965_Pad_TopBottom,3,MountingHole,
+"J1, J2",PinHeader_2x10_P2.54mm_Vertical,2,Conn_02x10_Odd_Even,
+J11,TerminalBlock_bornier-2_P5.08mm,1,BOARD_CONN,
